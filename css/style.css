@@ -80,7 +80,6 @@ nav ul li a{
     font-size: 1.5em;
     margin-left: 2%;
     margin-right: 2%;
-    background-color: antiquewhite;
     padding: 1%;
 }
 
@@ -104,7 +103,22 @@ nav ul li a{
     color: #fdf0e7;
 }
 
-.onu{
+.bg-aqw{
     background-color: antiquewhite;
-    
+}
+
+.onu{
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.doc{
+    justify-content: center;
+    align-items: center;
 }
