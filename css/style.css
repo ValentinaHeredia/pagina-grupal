@@ -48,14 +48,13 @@ nav ul li a{
     display: flex;
     width: 100%;
     justify-content: space-evenly;
-    margin-top: 10%;
-    margin-bottom: 10%;
+    margin-top: 3%;
 }
 
 .box{
     display: flex;
     background-color: antiquewhite;
-    width: 30%;
+    width: 25%;
     flex-direction: column;
     
     align-items: center;
@@ -66,7 +65,7 @@ nav ul li a{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 20%;
+    margin-top: 10.7%;
     margin-bottom: 0%;
 }
 
@@ -77,15 +76,30 @@ nav ul li a{
 }
 
 .text{
-    text-align: center;
+    text-align: justify;
     font-size: 2em;
+    margin-left: 2%;
+    margin-right: 2%;
+    background-color: antiquewhite;
+    padding: 1%;
 }
 
-.boton{
-    border: none
+.img{
+    margin: 10px;
+    border: solid rgb(94, 57, 8);
 }
 
-.text-cont{
-    margin-top: 10%;
-    margin-bottom: 10%;
+.boxtext{
+    margin-top: 3%;
+    width: 100%;
+}
+
+.nosotros{
+    background-color: #cc5a31;
+    color: #fdf0e7;
+}
+
+.inicio{
+    background-color: #cc5a31;
+    color: #fdf0e7;
 }
