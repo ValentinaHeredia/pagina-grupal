@@ -122,3 +122,34 @@ nav ul li a{
     justify-content: center;
     align-items: center;
 }
+
+.text-doc{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #a73f1a;
+}
+
+.org{
+    margin-top: 2%;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.bg-diseñador{
+    background-color: #efac51;
+}
+
+.bg-maquetador{
+    background-color: #de9537;
+}
+
+.bg-programador{
+    background-color: #ce7d1d;
+}
+
+.bg-comunicador{
+    background-color: #bd6503;
+}
