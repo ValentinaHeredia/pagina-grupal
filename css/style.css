@@ -15,12 +15,11 @@ nav{
 	top: 0;
 	padding: 10px 30px;
 	display: flex;
-	justify-content: space-between;
-	align-items: center;
+    justify-content: center;
 }
 
 nav ul{
-	display: flex;		
+	display: flex;	
 }
 
 nav ul li{
@@ -51,20 +50,27 @@ nav ul li a{
     margin-top: 3%;
 }
 
+.conteiner-onu{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 3%;
+}
+
 .box{
     display: flex;
     background-color: antiquewhite;
-    width: 25%;
+    width: 300px;
     flex-direction: column;
-    
     align-items: center;
 }
 
 .footer{
     background-color: bisque;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-content: space-evenly;
     margin-top: 10.7%;
     margin-bottom: 0%;
 }
@@ -78,14 +84,25 @@ nav ul li a{
 .text{
     text-align: justify;
     font-size: 1.5em;
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-left: 50px;
+    margin-right: 50px;
     padding: 1%;
 }
 
 .img{
     margin: 10px;
     border: solid rgb(94, 57, 8);
+    width: 250px;
+}
+
+.img-onu{
+    margin: 10px;
+    border: solid rgb(94, 57, 8);
+}
+
+
+.text-nosotros{
+    text-align: center;
 }
 
 .boxtext{
@@ -109,8 +126,8 @@ nav ul li a{
 
 .onu{
     margin-top: 3%;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .flex-column{
@@ -168,4 +185,41 @@ table {
     border: 1px solid var(--border-primary);
     border-collapse: collapse;
     width: 100%;
+}
+
+/* RESPONSIVE */
+
+@media (max-width:1115px) and (min-width:600px){
+
+    .conteiner{
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+
+    }
+    
+    .box{
+        display: flex;
+        background-color: antiquewhite;
+        width: 300px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img-onu{
+        margin: 10px;
+        border: solid rgb(94, 57, 8);
+    }
+
+    .conteiner-onu{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width:600px) {
+    .conteiner-onu{
+        display: flex;
+        flex-direction: column;
+    }
 }
