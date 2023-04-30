@@ -265,39 +265,11 @@ table {
 
 @media (max-width:600px){
 
-/* responsive navbar */
-
-    nav{
-        top: 0;
-        display: flex;
-    }
-
-    nav ul{
-        display: flex;
-        flex-direction: column;	
-    }
-
-    nav ul li{
-        list-style: none;
-        padding: 10px 30px;
-        width: 400px;
-        text-align: center;
-    }
-
 
     nav ul li a{
-        font-size: 1.3rem;
-        margin: 0;
-    }
-    .ini{
-        padding-left: 45%;
-        padding-right: 45%;
+        font-size: 1rem;
     }
 
-    .noso{
-        padding-left: 40.35%;
-        padding-right: 40.5%;
-    }
 
 
 /* Responsive pagina de inicio */
@@ -344,8 +316,16 @@ table {
         margin-left: 0;
         margin-right: 0;
     }
-
-    /* responsive pagina nosotros */
-
-
 }
+
+/* @media (max-width:500px){
+    .ini{
+        padding-left: 45%;
+        padding-right: 45%;
+    }
+
+    .noso{
+        padding-left: 40.35%;
+        padding-right: 40.5%;
+    }
+} */
