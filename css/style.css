@@ -98,8 +98,8 @@ nav ul li a{
 .img-onu{
     margin: 10px;
     border: solid rgb(94, 57, 8);
-    width:640px ;
-    height:381px ;
+    width: 65%;
+    height: 65%;
 }
 
 
@@ -208,12 +208,12 @@ table {
         align-items: center;
     }
 
-    .img-onu{
+    /* .img-onu{
         margin-top: 10px;
         border: solid rgb(94, 57, 8);
-        width:640px ;
-        height:381px ;
-    }
+        width:426px ;
+        height:254px ;
+    } */
 
     .conteiner-onu{
         display: flex;
@@ -241,10 +241,10 @@ table {
         flex-direction: column;
     }
 
-    .img-onu{
+    /* .img-onu{
         margin-top: 10px;
         border: solid rgb(94, 57, 8);
-        width:365px ;
-        height:217px ;
-    }
+        width:320px ;
+        height:190px ;
+    } */
 }
