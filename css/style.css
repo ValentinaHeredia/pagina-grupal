@@ -191,42 +191,87 @@ table {
 
 /* RESPONSIVE */
 
+@media (max-width:1300px) and (min-width:1115px){
+
+    /* Responsive pagina de inicio */
+
+    .conteiner-onu{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+
 @media (max-width:1115px) and (min-width:600px){
+
+
+/* Responsive pagina de inicio */
+
+    .title{
+        font-size: 3em;
+    }
+
+    .conteiner-onu{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text{
+        font-size: 1em;
+
+    }
+
+    .title-th{
+        font-size: 1em;
+        padding: 2%;
+    }
+    
+    .text-td{
+        font-size: 1em;
+        padding: 2%;
+    }
+
+    .footer{
+        font-size: 0.8em;
+    }
+
+/* Responsive pagina nosotros */
+
+    /* .conteiner{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box{
+        margin: 25px;
+    } */
+}
+
+@media (max-width:1000px){
+
+    .box{
+        margin: 25px;
+    }
 
     .conteiner{
         display: flex;
-        width: 100%;
-        justify-content: space-evenly;
-
-    }
-    
-    .box{
-        display: flex;
-        background-color: antiquewhite;
-        width: 300px;
         flex-direction: column;
         align-items: center;
-    }
-
-    /* .img-onu{
-        margin-top: 10px;
-        border: solid rgb(94, 57, 8);
-        width:426px ;
-        height:254px ;
-    } */
-
-    .conteiner-onu{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .text{
-        font-size: 1em;
     }
 }
 
-@media (max-width:600px) {
+@media (max-width:600px){
+
+/* Responsive pagina de inicio */
+
+    .title{
+        font-size: 2.5em;
+    }
+
     .conteiner-onu{
         display: flex;
         flex-direction: column;
@@ -235,16 +280,40 @@ table {
 
     .text{
         font-size: 1em;
+        margin: 0;
+        padding: 3px;
     }
 
     .footer{
         flex-direction: column;
+        text-align: center;
+        font-size: 0.7em;
     }
 
-    /* .img-onu{
-        margin-top: 10px;
-        border: solid rgb(94, 57, 8);
-        width:320px ;
-        height:190px ;
-    } */
+    .title-th{
+        font-size: 1em;
+        padding: 2%;
+    }
+    
+    .text-td{
+        font-size: 1em;
+        padding: 2%;
+    }
+
+    table {
+            margin: 0;
+            overflow: auto;
+            width: 100vw;
+    }
+
+    .onu{
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+}
+
+@media (max-width:500px){
+
+
 }
