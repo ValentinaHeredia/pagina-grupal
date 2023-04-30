@@ -153,3 +153,19 @@ nav ul li a{
 .bg-comunicador{
     background-color: #bd6503;
 }
+
+.title-th{
+    font-size: 1.5em;
+    padding: 2%;
+}
+
+.text-td{
+    font-size: 1.5em;
+    padding: 2%;
+}
+
+table {
+    border: 1px solid var(--border-primary);
+    border-collapse: collapse;
+    width: 100%;
+}
