@@ -98,6 +98,8 @@ nav ul li a{
 .img-onu{
     margin: 10px;
     border: solid rgb(94, 57, 8);
+    width:640px ;
+    height:381px ;
 }
 
 
@@ -207,13 +209,20 @@ table {
     }
 
     .img-onu{
-        margin: 10px;
+        margin-top: 10px;
         border: solid rgb(94, 57, 8);
+        width:640px ;
+        height:381px ;
     }
 
     .conteiner-onu{
         display: flex;
         flex-direction: column;
+        align-items: center;
+    }
+
+    .text{
+        font-size: 1em;
     }
 }
 
@@ -221,5 +230,21 @@ table {
     .conteiner-onu{
         display: flex;
         flex-direction: column;
+        align-items: center;
+    }
+
+    .text{
+        font-size: 1em;
+    }
+
+    .footer{
+        flex-direction: column;
+    }
+
+    .img-onu{
+        margin-top: 10px;
+        border: solid rgb(94, 57, 8);
+        width:365px ;
+        height:217px ;
     }
 }
